@@ -12,3 +12,66 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+/* 
+<------BOTTONI------>
+*/
+.btn{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.primary{
+    color: white;
+    background-color: #0061ff;
+}
+
+/* 
+<------HEADER------>
+*/
+header{
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 30px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+}
+header ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.header-left{
+    display: flex;
+    align-items: center;
+    padding-left: 10px; ;
+}
+a{
+    text-decoration: none;
+    color: gray;
+    padding: 10px;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+}
+.header-right ul li{
+    padding: 10px;
+}
+/* 
+<------/HEADER------>
+*/
+
+/* 
+<------MAIN------>
+*/
+main{
+    width: 100vw;
+    height: 100vh;
+    background-color: #b4d0e7;
+}
