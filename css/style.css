@@ -76,6 +76,9 @@ a{
 main{
     margin-top: 70px;
 }
+    /* 
+    <------1st Section------>
+    */
 .first-section{
     margin: 0 auto;
     padding: 0 60px;
@@ -114,3 +117,41 @@ main{
     font-size: 30px;
     padding: 35px;
 }
+    /* 
+    <------/1st Section------>
+    */
+
+    /* 
+    <------/2nd Section------>
+    */
+
+    .second-section{
+        margin:70px auto;
+        padding:200px;
+        width: 100vw;
+        height: 100vh;
+        z-index: 0;
+    }
+    .second-section h2{
+        text-align: left;
+        font-size: 50px;
+    }
+    .radio-btn{
+        padding-top: 30px;
+    }
+    .column{
+        display: flex;
+        padding-top: 40px;
+        gap: 20px;
+    }
+     .column-head{
+        text-align: center;
+        border: 1px solid gray;
+    }
+    .mid, .left, .right{
+        width: calc(100% / 3);
+        display: flex;
+        flex-direction: column;
+    }
+
+    
