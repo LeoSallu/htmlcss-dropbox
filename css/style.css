@@ -19,6 +19,7 @@ body{
     display: flex;
     align-items: center;
     padding: 10px;
+    margin: 20px;
 }
 .primary{
     color: white;
@@ -90,22 +91,26 @@ main{
 }
 
 .first-section h1{
-    padding-top: 15vh;
-    font-size: 50px;
+    padding-top: 10vh;
+    font-size: 90px;
     text-align: center;
 }
 .txt{
     padding-top: 100px;
-    padding-left: 150px;
-    line-height: 40px;
-    width: 30%;
+    padding-left: 120px;
+    line-height: 35px;
+    width: 40%;
 }
 .img-jumbo{
-    width: 70%;
+    width: 60%;
     position: absolute;
     bottom: -70px;
     right: 0;
 }
 .img-jumbo img{
     width: 100%;
+}
+.first-section .txt i {
+    font-size: 30px;
+    padding: 35px;
 }
