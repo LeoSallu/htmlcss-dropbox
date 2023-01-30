@@ -29,7 +29,11 @@ body ul {
     background-color: #0061ff;
     border: #0061ff 1px solid;
 }
+.secondary{
+    background-color: white;
+    border: 1px solid gray;
 
+}
 /* 
 <------HEADER------>
 */
@@ -85,7 +89,7 @@ main{
     margin: 0 auto;
     padding: 0 60px;
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     position: relative;
     background-color: #b4d0e7;
     z-index: 0;
@@ -101,8 +105,7 @@ main{
     text-align: center;
 }
 .txt{
-    padding-top: 100px;
-    padding-left: 120px;
+    padding: 60px 120px;
     line-height: 35px;
     width: 40%;
 }
@@ -125,14 +128,14 @@ main{
     */
 
     /* 
-    <------/2nd Section------>
+    <------2nd Section------>
     */
 
     .second-section{
-        margin:70px auto;
+        margin:30px auto;
         padding:200px;
         width: 100vw;
-        height: 100vh;
+        min-height: 100vh;
         z-index: 0;
     }
     .second-section h2{
@@ -144,7 +147,7 @@ main{
     }
     .column{
         display: flex;
-        padding-top: 40px;
+        padding-top: 30px;
     }
      .column-head{
         text-align: center;
@@ -180,6 +183,7 @@ main{
    }
    .row-team{
     padding-top: 30px;
+    padding-bottom: 40px;
    }
    .row-team .row-head{
     text-align: center;
@@ -206,6 +210,43 @@ main{
    .row-btn .btn a {
     color: white;
    }
+    /* 
+    <------/2nd Section------>
+    */
    
+    /* 
+    <------3rd Section------>
+    */
+.third-section{
+    width: 100vw;
+    min-height: 100vh;
+    margin: 30px auto;
+    padding: 200px;
+    display: flex;
+}
+.sec-img{
+    width: 60%;
+}
+.sec-img img {
+    width: 100%;
+    display: block;
+}
+.sec-txt{
+    width: 40%;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+.sec-txt .btn {
+    margin: 30px 10px;
+}
+/* 
+<------/3rd Section------>
+*/
+.fourth-section{
+    width: 100vw;
+    min-height: 100vh;
+    margin: 20px auto;
+    display: flex;
+}
 
     
