@@ -15,11 +15,18 @@ body {
 body ul {
     list-style: none;
 }
+img {
+    width: 100%;
+    display: block;
+}
+.flex{
+    display: flex;
+}
+
 /* 
 <------BOTTONI------>
 */
 .btn {
-    display: flex;
     align-items: center;
     padding: 10px;
     margin: 20px;
@@ -44,9 +51,7 @@ body ul {
 <------HEADER------>
 */
 header {
-    width: 100vw;
     height: 50px;
-    display: flex;
     align-content: center;
     justify-content: space-between;
     padding: 30px 20px;
@@ -58,11 +63,9 @@ header {
     background-color: white;
 }
 header ul {
-    display: flex;
     align-items: center;
 }
 .header-left {
-    display: flex;
     align-items: center;
     padding-left: 10px;
     ;
@@ -73,7 +76,6 @@ header a {
     padding: 10px;
 }
 .header-right {
-    display: flex;
     align-items: center;
 }
 .header-right ul li {
@@ -87,27 +89,18 @@ header a {
 <------MAIN------>
 */
 main {
-    margin-top: 70px;
+    margin: 70px auto;
 }
 /* 
     <------1st Section------>
 */
 .first-section {
-    margin: 0 auto;
-    padding: 0 60px;
-    width: 100vw;
-    min-height: 100vh;
-    position: relative;
     background-color: #b4d0e7;
     z-index: 0;
 }
-main .first-section img {
-    width: 100%;
-    display: block;
-}
 .first-section h1 {
-    padding-top: 10vh;
-    font-size: 90px;
+    padding: 100px;
+    font-size: 70px;
     text-align: center;
 }
 .txt {
@@ -117,12 +110,7 @@ main .first-section img {
 }
 .img-jumbo {
     width: 60%;
-    position: absolute;
-    bottom: -80px;
-    right: 10px;
-}
-.img-jumbo img {
-    width: 100%;
+    
 }
 .first-section .txt i {
     font-size: 30px;
@@ -151,7 +139,6 @@ main .first-section img {
     padding-top: 30px;
 }
 .column {
-    display: flex;
     padding-top: 30px;
 }
 .column-head {
@@ -162,7 +149,6 @@ main .first-section img {
 }
 .mid, .left, .right {
     width: calc(100% / 3);
-    display: flex;
     flex-direction: column;
 }
 .column div {
@@ -228,14 +214,9 @@ main .first-section img {
     min-height: 100vh;
     margin: 30px auto;
     padding: 200px;
-    display: flex;
 }
 .sec-img {
     width: 50%;
-}
-.sec-img img {
-    width: 100%;
-    display: block;
 }
 .sec-txt {
     width: 50%;
@@ -265,7 +246,6 @@ main .first-section img {
     font-size: 30px;
 }
 .container-big-col {
-    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
@@ -273,7 +253,6 @@ main .first-section img {
     margin: 20px 60px;
 }
 .flexcol {
-    display: flex;
     flex-direction: column;
 }
 .col {
@@ -287,9 +266,6 @@ main .first-section img {
 }
 .col-img {
     width: calc(100% / 3);
-}
-.col .col-img img {
-    width: 100%;
 }
 .fourth-footer {
     margin: 0 auto;
