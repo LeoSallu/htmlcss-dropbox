@@ -393,13 +393,12 @@ main {
 }
 .seven-section hr{
     margin: 10px auto;
-    width: 60%;
+    width: 70%;
 }
 .faq-list{
-    max-width: 30%;
     margin: 0 auto;
     padding: 15px;
-    justify-content: space-between;
+    justify-content: space-around;
 
 }
 .faq-list h4{
