@@ -354,3 +354,54 @@ main {
 /* 
 <------ /5th Section------>
 */
+
+/* 
+<------ 6th Section------>
+*/
+
+.sixth-section{
+    padding: 100px;
+    color: #61082b;
+    background-color: #b4d0e7;
+    align-items: center;
+    justify-content: center;
+}
+.sixth-section #six-btn .btn {
+    padding: 20px;
+}
+#six-txt{
+    font-size: 30px;
+    padding: 20px;
+}
+/* 
+<------ /6th Section------>
+*/
+
+/* 
+<------ 7th Section------>
+*/
+.seven-section h3{
+    font-size: 30px;
+    text-align: center;
+    padding-right: 50%;
+    margin: 60px 0 30px;
+}
+.faq{
+    width: 100%;
+    margin: 0 auto;
+    font-size: 30px;
+}
+.seven-section hr{
+    margin: 10px auto;
+    width: 60%;
+}
+.faq-list{
+    max-width: 30%;
+    margin: 0 auto;
+    padding: 15px;
+    justify-content: space-between;
+
+}
+.faq-list h4{
+    font-size: 15px;
+}
