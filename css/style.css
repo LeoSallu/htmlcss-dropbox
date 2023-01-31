@@ -16,7 +16,7 @@ body ul {
     list-style: none;
 }
 img {
-    width: 100%;
+    max-width: 100%;
     display: block;
 }
 .flex{
@@ -27,9 +27,8 @@ img {
 <------BOTTONI------>
 */
 .btn {
-    align-items: center;
     padding: 10px;
-    margin: 20px;
+    margin: 10px 0px;
 }
 .btn a {
     text-decoration: none;
@@ -89,7 +88,7 @@ header a {
 <------MAIN------>
 */
 main {
-    margin: 70px auto;
+    margin: 50px auto;
 }
 /* 
     <------1st Section------>
@@ -97,20 +96,33 @@ main {
 .first-section {
     background-color: #b4d0e7;
     z-index: 0;
+    position: relative;
 }
 .first-section h1 {
     padding: 100px;
     font-size: 70px;
     text-align: center;
 }
+.first-section .container .txt i {
+    position: absolute;
+    bottom: 0;
+    left: 90px;
+}
 .txt {
-    padding: 60px 120px;
+    padding: 40px 120px;
     line-height: 35px;
     width: 40%;
 }
 .img-jumbo {
     width: 60%;
-    
+    position: relative;
+    bottom: -80px;
+    right: 60px;
+}
+.container{
+    justify-content: center;
+    align-items: center;
+
 }
 .first-section .txt i {
     font-size: 30px;
@@ -234,14 +246,9 @@ main {
 /* 
 <------4th Section------>
 */
-.fourth-section {
-    width: 100vw;
-    min-height: 100vh;
-    margin: 20px auto;
-}
+
 .fourth-section .fourth-title {
-    width: 100vw;
-    margin: 0 40px;
+  
     padding-bottom: 50px;
     font-size: 30px;
 }
